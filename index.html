@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stworka checklist</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="checklist">
+      <div class="checklist__progress">
+        <svg
+          width="60"
+          height="60"
+          viewBox="0 0 60 60"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="30"
+            cy="30"
+            r="29.5"
+            stroke="#fff"
+            stroke-opacity="0.5"
+            stroke-width="1"
+          />
+          <path
+            d="M30 1
+              a 29 29 0 0 1 0 58
+              a 29 29 0 0 1 0 -58"
+            stroke="#fff"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-dasharray="3, 182.212"
+          />
+          <text
+            x="30"
+            y="33"
+            fill="#fff"
+            font-weight="400"
+            font-size="20"
+            text-anchor="middle"
+            alignment-baseline="middle"
+          >
+            0/7
+          </text>
+        </svg>
+      </div>
+      <div class="checklist__content">
+        <p class="checklist__title">Чеклист</p>
+        <p class="checklist__status">Выполнено: 0 из 7 действий</p>
+        <p class="checklist__next-action">
+          Следующее действие: Созвониться с клиентом до 23.05.24 12:00
+        </p>
+      </div>
+      <button class="checklist__button">Открыть чеклист</button>
+    </div>
+  </body>
+</html>
